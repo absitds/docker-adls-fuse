@@ -6,7 +6,7 @@
 		<artifactId>docker-parent</artifactId>
 		<version>1.0.0-SNAPSHOT</version>
 	</parent>
-	<artifactId>docker-adls-fuse</artifactId>
+	<artifactId>docker-fuse</artifactId>
 	<packaging>pom</packaging>
 	<build>
 		<plugins>
