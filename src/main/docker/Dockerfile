@@ -20,7 +20,8 @@ RUN apt-get update -yqq \
 	 	module-assistant \
 	 	wget \
 	 	vim \
- && apt-get install --reinstall linux-image-`uname -r` -yqq
+# linux-image-4.15.0-43-generic is taken for Ubuntu 16.04åå
+ && apt-get install --reinstall linux-image-4.15.0-43-generic -yqq
  
 
 # Configure cloudera repository & install requirement hadoop components
