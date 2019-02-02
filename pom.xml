@@ -34,6 +34,10 @@
 					<repository>absitdsdopswusacr001.azurecr.io/com.albertsons.itds/${project.artifactId}</repository>
 					<contextDirectory>${project.basedir}/src/main/docker</contextDirectory>
 					<tag>${project.version}</tag>
+					<buildArgs>
+						<CDH_REPO_URI>https://archive.cloudera.com/cdh6/6.1.0/ubuntu1604/apt</CDH_REPO_URI>
+						<CDH_RELEASE_NAME>xenial-cdh6.1.0</CDH_RELEASE_NAME>
+					</buildArgs>
 				</configuration>
 			</plugin>
 		</plugins>

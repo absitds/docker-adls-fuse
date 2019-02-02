@@ -20,7 +20,7 @@ RUN apt-get update -yqq \
 	 	module-assistant \
 	 	wget \
 	 	vim \
- && apt-get install --reinstall linux-image-`uname -r` -yqq \
+ && apt-get install --reinstall linux-image-`uname -r` -yqq
  
 
 # Configure cloudera repository & install requirement hadoop components
